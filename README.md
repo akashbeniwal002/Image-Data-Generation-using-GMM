@@ -12,10 +12,10 @@ Dataset for this project is taken from [Harvard Dataset](https://dataverse.harva
 
 # *Methedology*
 
-## **1. Calcomputationculation Cost Reduction: `Principal Component Analysis`**
+## **1. Calcomputationculation Cost Reduction: 'Principal Component Analysis'**
 To optimize computation time, grayscale images of size 128x128 pixels are used. Before utilizing a 128x128 figure, it needs to be transformed into a feature vector with a length of 16384.
 
-I have used Principal Component Analysis(`PCA`) to reduce the number of dimensions of the data. 
+I have used Principal Component Analysis(PCA) to reduce the number of dimensions of the data. 
 <br>
 * PCA identifies patterns by analyzing feature correlations and captures high-dimensional data's maximum variance.
 * It projects the data onto a lower-dimensional subspace while preserving essential information. 
@@ -35,7 +35,7 @@ Here PCA recognised 588 features through out the data set. Some of them are show
 </p>
 <br>
 
-## **2. `Gaussian Mixture Model`: Training and Data Generation**
+## **2. Gaussian Mixture Model: Training and Data Generation**
 
 * Gaussian mixture models (GMMs) assume data points are generated from a mixture of Gaussian distributions, and training them with a dataset helps find suitable parameters.
 * By selecting a specific cluster and utilizing its parameters, GMMs can generate samples associated with that cluster.
@@ -46,7 +46,7 @@ Here PCA recognised 588 features through out the data set. Some of them are show
 
 **Number of Clusters:**
 <br>
-The number of clusters for a well-converged GMM model was determined using the `Akaike Information Criteria` (AIC).
+The number of clusters for a well-converged GMM model was determined using the 'Akaike Information Criteria' (AIC).
 <p align='center'>
 <img  src="./assets/ACIs.png" width="300" height="200" />
 </p>
