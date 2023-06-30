@@ -12,7 +12,7 @@ Dataset for this project is taken from [Harvard Dataset](https://dataverse.harva
 
 # *Methedology*
 
-## **1. Calcomputationculation Cost Reduction: 'Principal Component Analysis'**
+## **1. Computation Cost Reduction: 'Principal Component Analysis'**
 To optimize computation time, grayscale images of size 128x128 pixels are used. Before utilizing a 128x128 figure, it needs to be transformed into a feature vector with a length of 16384.
 
 I have used Principal Component Analysis(PCA) to reduce the number of dimensions of the data. 
