@@ -1,7 +1,6 @@
 # **Gaussian Mixture Model for Image Data Generation**
 ## Project Specification
 The project is based on the use of Gaussian Mixture Model for Image Data Augmentation by generating new images from the flower image Dataset.
-[gdg](https://www.kaggle.com/datasets/noamsegal/affectnet-training-data?select=anger)
 ## DataSet
 Dataset for this project is taken from [Harvard Dataset](https://dataverse.harvard.edu/file.xhtml?fileId=4105627&version=8.0). Which contains thousands of flowers Images. Around 800 images sample is used from the dataset.
 
